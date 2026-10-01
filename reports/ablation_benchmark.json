@@ -1,0 +1,46 @@
+[
+  {
+    "model_name": "Tabular Baseline (LightGBM)",
+    "accuracy": 0.9511,
+    "precision_macro": 0.782,
+    "recall_macro": 0.7251,
+    "defect_recall": 0.85,
+    "f1_macro": 0.7423,
+    "pr_auc": 0.867,
+    "false_reject_rate": 0.0162,
+    "latency_ms": 0.091
+  },
+  {
+    "model_name": "Vision Baseline (CNN)",
+    "accuracy": 0.9867,
+    "precision_macro": 0.975,
+    "recall_macro": 0.8125,
+    "defect_recall": 1.0,
+    "f1_macro": 0.8368,
+    "pr_auc": 0.9642,
+    "false_reject_rate": 0.0,
+    "latency_ms": 4.137
+  },
+  {
+    "model_name": "Multimodal Concatenation Fusion",
+    "accuracy": 0.9956,
+    "precision_macro": 0.975,
+    "recall_macro": 0.9907,
+    "defect_recall": 1.0,
+    "f1_macro": 0.9821,
+    "pr_auc": 0.9895,
+    "false_reject_rate": 0.0,
+    "latency_ms": 3.141
+  },
+  {
+    "model_name": "Gated Multimodal Fusion (Proposed)",
+    "accuracy": 0.9911,
+    "precision_macro": 0.925,
+    "recall_macro": 0.9815,
+    "defect_recall": 1.0,
+    "f1_macro": 0.9494,
+    "pr_auc": 0.9565,
+    "false_reject_rate": 0.0,
+    "latency_ms": 2.283
+  }
+]

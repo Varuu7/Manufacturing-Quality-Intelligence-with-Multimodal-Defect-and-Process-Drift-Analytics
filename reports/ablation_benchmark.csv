@@ -1,0 +1,5 @@
+model_name,accuracy,precision_macro,recall_macro,defect_recall,f1_macro,pr_auc,false_reject_rate,latency_ms
+Tabular Baseline (LightGBM),0.9511,0.782,0.7251,0.85,0.7423,0.867,0.0162,0.091
+Vision Baseline (CNN),0.9867,0.975,0.8125,1.0,0.8368,0.9642,0.0,4.137
+Multimodal Concatenation Fusion,0.9956,0.975,0.9907,1.0,0.9821,0.9895,0.0,3.141
+Gated Multimodal Fusion (Proposed),0.9911,0.925,0.9815,1.0,0.9494,0.9565,0.0,2.283
