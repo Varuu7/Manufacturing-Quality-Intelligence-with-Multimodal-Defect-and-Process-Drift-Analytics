@@ -2,7 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "🚀 Run FastAPI Backend",
+            "name": "🏭 Run Both (Backend + Frontend)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_all.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🚀 Run FastAPI Backend (:8000)",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/run_backend.py",
@@ -10,14 +18,10 @@
             "justMyCode": true
         },
         {
-            "name": "📊 Run Streamlit Dashboard",
+            "name": "📊 Run Streamlit Frontend (:8501)",
             "type": "debugpy",
             "request": "launch",
-            "module": "streamlit",
-            "args": [
-                "run",
-                "${workspaceFolder}/app/streamlit_app.py"
-            ],
+            "program": "${workspaceFolder}/run_frontend.py",
             "console": "integratedTerminal",
             "justMyCode": true
         },
