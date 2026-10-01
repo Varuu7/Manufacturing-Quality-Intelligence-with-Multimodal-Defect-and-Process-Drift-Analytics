@@ -1,7 +1,3 @@
-"""
-Integration tests for FastAPI REST Endpoints.
-"""
-
 import sys
 import os
 import pytest

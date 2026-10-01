@@ -1,7 +1,3 @@
-"""
-Unit tests for Process Drift Analytics and Automated Rollback.
-"""
-
 import sys
 import os
 import pytest

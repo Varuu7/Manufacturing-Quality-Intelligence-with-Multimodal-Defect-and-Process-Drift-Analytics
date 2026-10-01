@@ -1,7 +1,3 @@
-"""
-Unit tests for Multimodal Neural Network, Uncertainty, and Grad-CAM Saliency.
-"""
-
 import sys
 import os
 import pytest

@@ -1,7 +1,3 @@
-"""
-Unit tests for Statistical Process Control (SPC) engine.
-"""
-
 import sys
 import os
 import pytest

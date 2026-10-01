@@ -1,8 +1,3 @@
-"""
-Direct entrypoint to run the FastAPI backend from VS Code or terminal.
-Right-click and select 'Run Python File in Terminal' or press F5.
-"""
-
 import sys
 import os
 import uvicorn
